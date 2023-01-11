@@ -10,4 +10,4 @@ for i in valuesJson["lines"]:
     if i["detailsId"] == "divine-orb":
         divOrbValue = i["receive"]["value"]
 print(f"That's {round((divOrbValue)*(divOrbCount))} Chaos Orbs")
-input("Press Enter to exit...")
+input("Press any key to exit...")
